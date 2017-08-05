@@ -1,0 +1,151 @@
+/*
+Add the correct display in IE 9-.
+Add the correct display in IE.
+ */
+main, section, article, aside, header, nav, figure, figcaption, details, menu, footer {
+  display: block;
+}
+summary {
+	display: list-item;
+}
+/*
+Prevent adjustments of font size after orientation changes in
+IE on Windows Phone and in iOS.
+ */
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+/*
+Add the correct display in IE 9-.
+ */
+audio,
+video {
+  display: inline-block;
+}
+/*
+Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+/*
+Remove the border on images inside links in IE 10-.
+ */
+img {
+  border-style: none;
+}
+/*
+Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+/*
+Remove the gray background on active links in IE 10.
+Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+a {
+  background-color: transparent; /* 1 */
+  -webkit-text-decoration-skip: objects; /* 2 */
+}
+/*
+Remove the outline on focused links when they are also active or hovered
+in all browsers (opinionated).
+ */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+/*
+Show the overflow in IE.
+Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+/*
+Prevent a WebKit bug where (2) destroys native `audio` and `video`
+   controls in Android 4.
+Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+html [type="button"], /* 1 */
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+}
+/*
+Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+/*
+Correct the text wrapping in Edge and IE.
+Correct the color inheritance from `fieldset` elements in IE.
+   `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  white-space: normal; /* 1 */
+}
+/*
+Remove the default vertical scrollbar in IE.
+ */
+textarea {
+  overflow: auto;
+}
+/*
+Add the correct box sizing in IE 10-.
+Remove the padding in IE 10-.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+/*
+Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+/*
+Correct the odd appearance in Chrome and Safari.
+Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+/*
+Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/*
+Correct the inability to style clickable types in iOS and Safari.
+Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+/*
+Add the correct display in IE 10-.
+ */
+[hidden] {
+  display: none;
+}
