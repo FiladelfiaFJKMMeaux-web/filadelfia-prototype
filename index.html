@@ -3,10 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="assets/initial.css">
+	<link rel="stylesheet" href="assets/style.css">
 	<title>Filadelfia ❤✝ FJKM Meaux</title>
 </head>
 <body>
 
+<div class="container">
+<div class="bgdark">
 <header>
 
 <!-- Banner with Logo and Bg Images -->
@@ -19,7 +22,7 @@
 </div>
 
 <!-- Primary navigation -->
-<nav class="primary-nav">
+<nav class="primary-nav nav">
 	<ul>
 		<li><a href="index.html">Accueil</a></li>
 		<li><a href="about.html">à propos</a></li>
@@ -32,93 +35,123 @@
 </header>
 
 <!-- News -->
-<section>
-	<h1>News de l'Eglise</h1>
-	<article>
-		<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, modi.</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi totam nihil quam officia in porro dolore quidem, eius reprehenderit voluptates!</p>
-	</article>
-	<article>
-		<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, modi.</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi totam nihil quam officia in porro dolore quidem, eius reprehenderit voluptates!</p>
-	</article>
-	<article>
-		<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, modi.</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi totam nihil quam officia in porro dolore quidem, eius reprehenderit voluptates!</p>
-	</article>
-	<article>
-		<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, modi.</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi totam nihil quam officia in porro dolore quidem, eius reprehenderit voluptates!</p>
-	</article>
-</section>
-
-<section>
-	<h1>Agenda</h1>
-	<article>
-		<h2>Date 00/00/00 at 00:00</h2>
-		<h3>Event</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, maxime.</p>
-	</article>
-	<article>
-		<h2>Date 00/00/00 at 00:00</h2>
-		<h3>Event</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, maxime.</p>
-	</article>
-	<article>
-		<h2>Date 00/00/00 at 00:00</h2>
-		<h3>Event</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, maxime.</p>
-	</article>
-	<article>
-		<h2>Date 00/00/00 at 00:00</h2>
-		<h3>Event</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, maxime.</p>
-	</article>
-</section>
-
-<section>
-	<h1>Articles récents</h1>
-	<div>
-		<div><img src="assets/thumbnail.jpg" alt="article-image"></div>
-		<h2>Article titre</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero omnis, iste quibusdam, minima neque, sed a esse inventore odit aut doloribus quod beatae nihil suscipit consequatur amet architecto asperiores molestias. <a href="#">Lire plus...</a></p>
+<section class="news">
+	<h2>News de l'Eglise</h2>
+	<div class="col-1-2" group>
+		<div class="post-news">
+			<div class="thumbnail"><a href=""><img src="assets/meetup.jpg" alt="thumbnail"></a></div>
+			<h3 class="title"><a href="">Topics1</a></h3>
+			<p class="meta">Date - <a href="">Author</a></p>
+			<p class="newsexcerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi totam nihil quam officia in porro dolore quidem, eius reprehenderit voluptates! <a href="">[...] lire plus</a></p>
+		</div>	
+	</div><!--
+ --><div class="col-1-2">
+ 		<div class="post-news" style="background: #2b8;">
+			<div class="thumbnail"><a href=""><img src="assets/meetup2.jpg" alt="thumbnail"></a></div>
+			<h3 class="title"><a href="">Topics2</a></h3>
+			<p class="meta">Date - <a href="">Author</a></p>
+			<p class="newsexcerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi totam nihil quam officia in porro dolore quidem, eius reprehenderit voluptates! <a href="">[...] lire plus</a></p>
+		</div>
+	</div><!--
+ --><div class="col-1-2">
+ 		<div class="post-news" style="background:#8e0;">
+			<div class="thumbnail"><a href=""><img src="assets/thechapter.jpg" alt="thumbnail"></a></div>
+			<h3 class="title"><a href="">Topics3</a></h3>
+			<p class="meta">Date - <a href="">Author</a></p>
+			<p class="newsexcerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi totam nihil quam officia in porro dolore quidem, eius reprehenderit voluptates! <a href="">[...] lire plus</a></p>
+		</div>
+	</div><!--
+ --><div class="col-1-2">
+ 		<div class="post-news" style="background: #e80">
+		<div class="thumbnail"><a href=""><img src="assets/series.jpg" alt="thumbnail"></a></div>
+		<h3 class="title"><a href="">Topics4</a></h3>
+		<p class="meta">Date - <a href="">Author</a></p>
+		<p class="newsexcerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi totam nihil quam officia in porro dolore quidem, eius reprehenderit voluptates! <a href="">[...] lire plus</a></p>
 	</div>
-	<div>
-		<div><img src="assets/thumbnail.jpg" alt="article-image"></div>
-		<h2>Article titre</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero omnis, iste quibusdam, minima neque, sed a esse inventore odit aut doloribus quod beatae nihil suscipit consequatur amet architecto asperiores molestias. <a href="#">Lire plus...</a></p>
-	</div>
-	<div>
-		<div><img src="assets/thumbnail.jpg" alt="article-image"></div>
-		<h2>Article titre</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero omnis, iste quibusdam, minima neque, sed a esse inventore odit aut doloribus quod beatae nihil suscipit consequatur amet architecto asperiores molestias. <a href="#">Lire plus...</a></p>
-	</div>
-	<div>
-		<div><img src="assets/thumbnail.jpg" alt="article-image"></div>
-		<h2>Article titre</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero omnis, iste quibusdam, minima neque, sed a esse inventore odit aut doloribus quod beatae nihil suscipit consequatur amet architecto asperiores molestias. <a href="#">Lire plus...</a></p>
 	</div>
 </section>
+<!-- Home board -->
+<section class="col-2-3">
+	<section class="agenda">
+		<h2>Agenda</h2>
+		<article class="col-1-2">
+			<h3 class="title">Event</h3>
+			<p class="meta">Date 00/00/00 at 00:00</p>
+			<p class="newscontent">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, maxime.</p>
+		</article><!--
+	 --><article class="col-1-2">
+			<h3 class="title">Event</h3>
+			<p class="meta">Date 00/00/00 at 00:00</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, maxime.</p>
+		</article><!--
+	 --><article class="col-1-2">
+			<h3 class="title">Event</h3>
+			<p class="meta">Date 00/00/00 at 00:00</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, maxime.</p>
+		</article><!--
+	 --><article class="col-1-2">
+			<h3 class="title">Event</h3>
+			<p class="meta">Date 00/00/00 at 00:00</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, maxime.</p>
+		</article>
+	</section>
 
-<aside>
+	<section class="blog">
+		<h2>Articles récents</h2>
+		<div class="post-blog group">
+			<a class="thumbnail col-1-3" href=""><img src="assets/mariage.jpg" alt="article-image"></a><!--
+		 --><div class="col-2-3 resume">
+			<h3 class="title"><a href="">Article titre</a></h3>
+			<p class="meta">Date - <a href="">Author</a></p>
+			<p class="postcontent">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero omnis, iste quibusdam, minima neque, sed a esse inventore odit aut doloribus quod beatae nihil suscipit consequatur amet architecto asperiores molestias. <a class="btn" href="#">Lire plus...</a></p>
+		</div>
+		</div><!--
+	 --><div class="post-blog">
+			<a class="thumbnail col-1-3" href=""><img src="assets/knowledge.jpg" alt="article-image"></a><!--
+		 --><div class="col-2-3 resume">
+			<h3 class="title"><a href="">Article titre</a></h3>
+			<p class="meta">Date - <a href="">Author</a></p>
+			<p class="postcontent">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero omnis, iste quibusdam, minima neque, sed a esse inventore odit aut doloribus quod beatae nihil suscipit consequatur amet architecto asperiores molestias. <a class="btn" href="#">Lire plus...</a></p>
+		</div>
+		</div><!--
+	 --><div class="post-blog">
+			<a class="thumbnail col-1-3" href=""><img src="assets/amazing.jpg" alt="article-image"></a><!--
+		 --><div class="col-2-3 resume">
+			<h3 class="title"><a href="">Article titre</a></h3>
+			<p class="meta">Date - <a href="">Author</a></p>
+			<p class="postcontent">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero omnis, iste quibusdam, minima neque, sed a esse inventore odit aut doloribus quod beatae nihil suscipit consequatur amet architecto asperiores molestias. <a class="btn" href="#">Lire plus...</a></p>
+		</div>	
+		</div><!--
+	 --><div class="post-blog">
+			<a class="thumbnail col-1-3" href=""><img src="assets/unknown.jpg" alt="article-image"></a><!--
+		 --><div class="col-2-3 resume">
+			<h3 class="title"><a href="">Article titre</a></h3>
+			<p class="meta">Date - <a href="">Author</a></p>
+			<p class="postcontent">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero omnis, iste quibusdam, minima neque, sed a esse inventore odit aut doloribus quod beatae nihil suscipit consequatur amet architecto asperiores molestias. <a class="btn" href="#">Lire plus...</a></p>
+		</div>	
+		</div>
+	</section>
+</section><!--
+
+--><aside class="col-1-3">
 	<h1>Welcome</h1>
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, tempore, at? Quisquam impedit maiores, ipsa. Iusto consequatur expedita ipsam tempora id possimus, quam inventore ducimus, adipisci, libero autem mollitia ullam totam porro non aliquam at. Deleniti numquam facere perferendis vero earum est velit nisi ipsam, tempora quibusdam molestiae reprehenderit eum.</p>
 </aside>
 
 <footer>
 	<!-- Addresse -->
-	<div>
+<div class="coordonnes">
+	<div class="col-1-3 footer-info">
+		<p class="label">Addresse</p>
 		<p>Lorem ipsum dolor.</p>
-		<p>4 rue des trinitaires</p>
-		<p>Meaux 77100</p>
-		<p>Tél: 08 78 67 57 12</p>
+		<p class="addresse">4 rue des trinitaires</p>
+		<p class="addresse">Meaux 77100</p>
+		<p class="rs">Tél: 08 78 67 57 12</p>
+	</div><!--
+ --><div class="col-2-3 imap">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d599.174576530472!2d2.8869232059545227!3d48.95795000981605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e8a10f72a9760f%3A0xea59cab4f7ff479c!2sTemple+protestant!5e1!3m2!1sfr!2ses!4v1502253467282" style="border:0" allowfullscreen></iframe>
 	</div>
-
-	<!-- GMAPI -->
-	<div>
-		<iframe src="#" frameborder="0"></iframe>
-	</div>
-
+</div>
 	<!-- Informations légales -->
 	<small>
 		<ul>
@@ -127,6 +160,8 @@
 		</ul>
 	</small>
 </footer>
-Footer : Adresse, Horaires, Informations légales	
+</div>
+</div>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>
